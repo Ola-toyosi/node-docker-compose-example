@@ -1,0 +1,16 @@
+### setup
+GET http://localhost:1300/setup
+
+
+###
+GET http://localhost:1300
+
+###
+POST http://localhost:1300
+Content-Type: application/json
+
+{
+    "name": "mary",
+    "location": "35 heyy"
+}
+
